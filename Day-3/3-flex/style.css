@@ -1,0 +1,28 @@
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 24px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* height: 90vh; */
+}
+
+body {
+  background: url("https://wallpapers-clan.com/wp-content/uploads/2025/02/luffy-red-glow-eyes-dark-pc-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}

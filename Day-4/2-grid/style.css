@@ -1,0 +1,42 @@
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+    "header header ads"
+    "links content ads"
+    "footer footer ads";
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(86, 244, 155);
+}
+
+.link {
+  grid-area: links;
+  background-color: rgb(86, 244, 155);
+}
+
+.content {
+  grid-area: content;
+  background-color: rgb(86, 244, 155);
+}
+
+.ads {
+  grid-area: ads;
+  background-color: rgb(86, 244, 155);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(20, 206, 144);
+}

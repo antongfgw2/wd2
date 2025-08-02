@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --primary-color: #e50914;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: #999;
+}
+
+.showcase {
+  width: 100%;
+  height: 93vh;
+  background: url("https://images.frandroid.com/wp-content/uploads/2022/10/netflix-octobre-contenus-2022.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.609);
+  z-index: 1;
+}
+
+.showcase-top {
+  position: relative;
+  z-index: 100;
+  height: 90px;
+}
+
+.showcase-top img {
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -18%);
+}
+
+.showcase-top button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background: var(--primary-color);
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.btn-rounded {
+  border-radius: 5px;
+}
+
+.btn-xl {
+  font-size: 32px;
+  padding: 24px 35px;
+}
+
+.showcase-content {
+  position: relative;
+  z-index: 2;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.showcase-content h1 {
+  font-weight: 700;
+  font-size: 90px;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.showcase-content p {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.footer {
+  width: 70%;
+  margin: 16px auto;
+  font-size: 12px;
+}
+
+.footer p {
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer li {
+  line-height: 25px;
+}
+
+.footer a {
+  color: #999;
+  text-decoration: none;
+}

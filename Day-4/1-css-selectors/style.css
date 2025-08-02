@@ -1,0 +1,59 @@
+h1 {
+  color: red;
+}
+
+.title {
+  font-size: 50px;
+  color: blue;
+}
+
+#title {
+  text-decoration: underline;
+  color: green;
+}
+
+div ~ p {
+  background-color: red;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: aqua;
+}
+
+h3 {
+  position: relative;
+}
+
+h3::first-letter {
+  color: red;
+}
+
+/* h3::before {
+  /* content: url("https://img.freepik.com/free-photo/gradient-iphone-wallpaper-oil-bubble-water-background_53876-176849.jpg?semt=ais_hybrid&w=740"); */
+/* } */
+
+h3::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.554);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a[target="_blank"] {
+  background-color: yellow;
+}
